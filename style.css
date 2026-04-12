@@ -1,28 +1,5 @@
 
 
-.navbar {
-  width: 100%;
-  background-color: #003f5c;
-  padding: 15px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.book-us {
-  background-color: green;
-  color: white;
-  padding: 10px 22px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-.book-us:hover {
-  background-color: darkgreen;
-  transform: scale(1.05);
-}
-
    
 * {
     margin: 0;
