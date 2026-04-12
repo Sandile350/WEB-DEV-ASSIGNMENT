@@ -1,30 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head> 
-<style>
-.navbar {
-  width: 100%;
-  background-color: #003f5c;
-  padding: 15px;
-  display: flex;
-  justify-content: flex-end;
-}
 
-.book-us {
-  background-color: green;
-  color: white;
-  padding: 10px 22px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-.book-us:hover {
-  background-color: darkgreen;
-  transform: scale(1.05);
-}
-</style>
     <meta charset="UTF-8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <title>CleaningTech — Clutter Sparks Productivity</title> 
@@ -193,21 +170,7 @@
         © <span id="yr"></span> CleaningTech — Clutter Sparks Productivity 
     </footer> 
 
-    <script> 
-        // Year 
-        document.getElementById('yr').textContent = new Date().getFullYear(); 
-
-        // Scroll reveal animation 
-        const io = new IntersectionObserver((entries) => { 
-            entries.forEach(e => { 
-                if (e.isIntersecting) { 
-                    e.target.classList.add('in'); 
-                    io.unobserve(e.target); 
-                } 
-            }); 
-        }, { threshold: .18 }); 
-
-        document.querySelectorAll('.reveal').forEach(el => io.observe(el)); 
-    </script> 
+    <script> src = "script.js"> </script>
+        
 </body> 
 </html>
